@@ -99,7 +99,7 @@ const handleRestart=(e) => {
     // console.log(e);
      xIsNext = true;
     statusUpdate.innerHTML = `${playerOne} is next`;
-
+//    need something here put dont know ????
     gameOn = true;
 }
 
