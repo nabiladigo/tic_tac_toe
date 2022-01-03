@@ -99,10 +99,7 @@ const handleRestart=(e) => {
     // console.log(e);
      xIsNext = true;
     statusUpdate.innerHTML = `${playerOne} is next`;
-     for(const cellDiv of cells){
-        cellDiv.classList.remove('x');
-        cellDiv.classList.remove('o');
-     }
+
     gameOn = true;
 }
 
